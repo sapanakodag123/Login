@@ -1,0 +1,9 @@
+---
+applications:
+- name: Login
+  memory: 128M
+  timeout: 60
+  Domain : mybluemixlogin.net
+  host: Login
+  path: Login.war
+  instances: 1
